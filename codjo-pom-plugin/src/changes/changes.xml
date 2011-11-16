@@ -1,0 +1,9 @@
+<document>
+    <body>
+        <release version="0.1" date="SVN" description="Version initiale">
+            <action dev="gonnot,gaudefr" type="add">
+                Transfert de la documentation dans le profil "documentation-full-plugin".
+            </action>
+        </release>
+    </body>
+</document>

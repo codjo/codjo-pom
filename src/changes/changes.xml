@@ -1,0 +1,10 @@
+<document>
+    <body>
+        <release version="0.1" date="SVN" description="Version initiale">
+            <action dev="gonnot,gaudefr" type="add">
+                Ajout de la documentation.
+                La configuration de la documentation est faite dans le profil "documentation-full".
+            </action>
+        </release>
+    </body>
+</document>

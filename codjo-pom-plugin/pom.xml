@@ -26,11 +26,6 @@
                 <classifier>tests</classifier>
                 <version>1.17</version>
             </dependency>
-            <dependency>
-                <groupId>net.codjo.maven</groupId>
-                <artifactId>codjo-maven-enforcer</artifactId>
-                <version>1.1</version>
-            </dependency>
 
             <!--
             maven

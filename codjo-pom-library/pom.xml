@@ -32,7 +32,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.1</version>
                 <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <pushChanges>false</pushChanges>
+                    <remoteTagging>false</remoteTagging>
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
@@ -60,54 +64,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>net.codjo.maven.mojo</groupId>
-                <artifactId>maven-profile-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <databaseType>sybase</databaseType>
-                        </configuration>
-                        <goals>
-                            <goal>database-type</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <dependencies>
-                    <dependency>
-                        <groupId>net.codjo.maven</groupId>
-                        <artifactId>codjo-maven-enforcer</artifactId>
-                        <version>1.1-SNAPSHOT</version>
-                    </dependency>
-                </dependencies>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <rules>
-                                <myCustomRule implementation="net.codjo.maven.enforcer.VerifyDependencyManagement" />
-                            </rules>
-                        </configuration>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
-
-    <!--
-    | Maven Environment
-    -->
-
-    <distributionManagement>
-        <site>
-            <id>documentation-agf-repository</id>
-            <url>scp://wp-documentation/cygdrive/c/Dev/tools/tomcat/tomcat-5.5/webapps/sites/library</url>
-        </site>
-    </distributionManagement>
 </project>

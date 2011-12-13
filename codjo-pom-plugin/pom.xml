@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -226,8 +227,8 @@
     | Project Information
     -->
 
-    <name>POM racine &gt; plugins maven</name>
-    <description>POM Racine de tous les plugins maven</description>
+    <name>POM &gt; plugins maven</name>
+    <description>Root POM for maven plugins</description>
     <url>http://wp-documentation:8080/sites/maven/</url>
 
     <!--
@@ -287,34 +288,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <!--
-    | Maven Environment
-    -->
-
-    <distributionManagement>
-        <site>
-            <id>documentation-codjo-repository</id>
-            <url>scp://wp-documentation/cygdrive/c/Dev/tools/tomcat/tomcat-5.5/webapps/sites/maven</url>
-        </site>
-    </distributionManagement>
-    <profiles>
-        <profile>
-            <id>documentation-full-plugin</id>
-            <activation>
-                <property>
-                    <name>!documentation</name>
-                </property>
-            </activation>
-            <reporting>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-plugin-plugin</artifactId>
-                    </plugin>
-                </plugins>
-            </reporting>
-        </profile>
-    </profiles>
-
 </project>

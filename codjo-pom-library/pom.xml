@@ -18,8 +18,8 @@
     | Project Information
     -->
 
-    <name>POM racine &gt; librairies</name>
-    <description>POM Racine de toutes les librairies (projet ne produisant qu'un jar)</description>
+    <name>POM &gt; libraries</name>
+    <description>Root POM for libraries</description>
     <url>http://wp-documentation:8080/sites/library/</url>
 
     <!--

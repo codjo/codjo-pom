@@ -1570,7 +1570,7 @@
      | Project Information
      -->
 
-    <name>POM racine</name>
+    <name>POM root</name>
     <description>Root POM file for the codjo.net framework.</description>
     <url>http://framework.codjo.net</url>
     <inceptionYear>2006</inceptionYear>

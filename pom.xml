@@ -810,14 +810,14 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-                <version>1.41</version>
+                <version>1.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
                 <scope>test</scope>
-                <version>1.41</version>
+                <version>1.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>
@@ -1083,12 +1083,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.10</version>
+                <version>1.11-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.10</version>
+                <version>1.11-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1570,7 +1570,7 @@
      | Project Information
      -->
 
-    <name>POM racine</name>
+    <name>POM root</name>
     <description>Root POM file for the codjo.net framework.</description>
     <url>http://framework.codjo.net</url>
     <inceptionYear>2006</inceptionYear>

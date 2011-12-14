@@ -18,8 +18,8 @@
     | Project Information
     -->
 
-    <name>POM racine &gt; applications</name>
-    <description>POM Racine de toutes les applications</description>
+    <name>POM &gt; applications</name>
+    <description>Root POM for applications</description>
     <url>http://wp-documentation:8080/sites/application/</url>
 
     <!--
@@ -48,9 +48,7 @@
                     <artifactId>maven-release-plugin</artifactId>
                     <configuration>
                         <preparationGoals>clean</preparationGoals>
-                        <arguments>-Dprocess=integration -Ddatabase=integration -Dserver=integration
-                            -Ddocumentation=disabled
-                        </arguments>
+                        <arguments>-Dprocess=integration -Ddatabase=integration -Dserver=integration</arguments>
                         <!-- IL FAUT ABSOLUMENT LAISSER INSTALL -->
                         <goals>install</goals>
                     </configuration>
@@ -76,41 +74,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <!--
-    | Maven Environment
-    -->
-
-    <distributionManagement>
-        <site>
-            <id>documentation-codjo-repository</id>
-            <url>scp://wp-documentation/cygdrive/c/Dev/tools/tomcat/tomcat-5.5/webapps/sites/application</url>
-        </site>
-    </distributionManagement>
-    <profiles>
-        <profile>
-            <id>documentation-full-app</id>
-            <activation>
-                <property>
-                    <name>!documentation</name>
-                </property>
-            </activation>
-            <reporting>
-                <plugins>
-                    <plugin>
-                        <groupId>net.codjo.maven.mojo</groupId>
-                        <artifactId>maven-codjo-plugin</artifactId>
-                    </plugin>
-                    <plugin>
-                        <groupId>net.codjo.maven.mojo</groupId>
-                        <artifactId>maven-test-release-plugin</artifactId>
-                    </plugin>
-                    <plugin>
-                        <groupId>net.codjo.maven.mojo</groupId>
-                        <artifactId>maven-datagen-plugin</artifactId>
-                    </plugin>
-                </plugins>
-            </reporting>
-        </profile>
-    </profiles>
 </project>

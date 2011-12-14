@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.80</version>
+                <version>1.81-SNAPSHOT</version>
                 <!-- Ne pas ré-activer car :
                       - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
                         application)

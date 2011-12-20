@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-=======
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
->>>>>>> 647d496ea48562a36daeb5aa183ea961924ca4cd
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -815,22 +810,14 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-<<<<<<< HEAD
                 <version>1.43-SNAPSHOT</version>
-=======
-                <version>1.42</version>
->>>>>>> 647d496ea48562a36daeb5aa183ea961924ca4cd
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
                 <scope>test</scope>
-<<<<<<< HEAD
                 <version>1.43-SNAPSHOT</version>
-=======
-                <version>1.42</version>
->>>>>>> 647d496ea48562a36daeb5aa183ea961924ca4cd
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>
@@ -1843,11 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-<<<<<<< HEAD
                     <version>1.68-SNAPSHOT</version>
-=======
-                    <version>1.65</version>
->>>>>>> 647d496ea48562a36daeb5aa183ea961924ca4cd
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
@@ -1979,11 +1962,7 @@
                                         </property>
                                     </properties>
                                 </jnlp>
-<<<<<<< HEAD
                                 <resourcesAddOn>@deploymentProperties@</resourcesAddOn>
-=======
-                                <resourcesAddOn>@deploymentProperties@</resourcesAddOn>								
->>>>>>> 647d496ea48562a36daeb5aa183ea961924ca4cd
                             </configuration>
                             <executions>
                                 <execution>

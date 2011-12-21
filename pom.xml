@@ -949,7 +949,7 @@
             <dependency>
                 <groupId>net.codjo.standalone-client</groupId>
                 <artifactId>codjo-standalone-client</artifactId>
-                <version>1.14</version>
+                <version>1.15-SNAPSHOT</version>
             </dependency>
 
             <dependency>

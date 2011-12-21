@@ -810,14 +810,14 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-                <version>1.42</version>
+                <version>1.43-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
                 <scope>test</scope>
-                <version>1.42</version>
+                <version>1.43-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>
@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.80</version>
+                <version>1.81-SNAPSHOT</version>
                 <!-- Ne pas ré-activer car :
                       - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
                         application)
@@ -949,7 +949,7 @@
             <dependency>
                 <groupId>net.codjo.standalone-client</groupId>
                 <artifactId>codjo-standalone-client</artifactId>
-                <version>1.14</version>
+                <version>1.15-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1830,7 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.65</version>
+                    <version>1.68-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
@@ -1962,7 +1962,7 @@
                                         </property>
                                     </properties>
                                 </jnlp>
-                                <resourcesAddOn>@deploymentProperties@</resourcesAddOn>								
+                                <resourcesAddOn>@deploymentProperties@</resourcesAddOn>
                             </configuration>
                             <executions>
                                 <execution>

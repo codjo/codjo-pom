@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <!-- Ne pas ré-activer car :
                       - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
                         application)
@@ -1830,7 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.68</version>
+                    <version>1.69-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>

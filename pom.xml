@@ -1317,34 +1317,34 @@
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
 

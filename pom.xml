@@ -810,14 +810,14 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-                <version>1.43</version>
+                <version>1.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
                 <scope>test</scope>
-                <version>1.43</version>
+                <version>1.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>
@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <!-- Ne pas ré-activer car :
                       - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
                         application)
@@ -1000,45 +1000,45 @@
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-common</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-client</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-client</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-gui</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-gui</artifactId>
-                <version>3.161</version>
+                <version>3.162-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1317,34 +1317,34 @@
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.47</version>
+                <version>3.48-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
 
@@ -1615,7 +1615,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-codjo-plugin</artifactId>
-                    <version>1.42</version>
+                    <version>1.43-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.scm</groupId>
@@ -1830,7 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.68</version>
+                    <version>1.69-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>

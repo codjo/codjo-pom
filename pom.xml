@@ -1830,7 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.69</version>
+                    <version>1.70-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>

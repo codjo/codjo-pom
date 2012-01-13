@@ -1552,6 +1552,27 @@
                 <artifactId>codjo-i18n-gui</artifactId>
                 <version>1.7</version>
             </dependency>
+			<!-- DJProjects Native Swing -->
+			<dependency>
+				<groupId>chrriis</groupId>
+				<artifactId>DJNativeSwing-SWT</artifactId>
+				<version>1.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>chrriis</groupId>
+				<artifactId>DJNativeSwing</artifactId>
+				<version>1.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse</groupId>
+				<artifactId>swt</artifactId>
+				<version>3.7M5</version>
+			</dependency>
+			<dependency>
+				<groupId>com.moxiecode</groupId>
+				<artifactId>tinymce</artifactId>
+				<version>3.4.7</version>
+			</dependency>			
         </dependencies>
     </dependencyManagement>
     <dependencies>

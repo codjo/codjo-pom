@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.82</version>
+                <version>1.83-SNAPSHOT</version>
                 <!-- Ne pas ré-activer car :
                       - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
                         application)
@@ -1552,6 +1552,27 @@
                 <artifactId>codjo-i18n-gui</artifactId>
                 <version>1.7</version>
             </dependency>
+			<!-- DJProjects Native Swing -->
+			<dependency>
+				<groupId>chrriis</groupId>
+				<artifactId>DJNativeSwing-SWT</artifactId>
+				<version>1.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>chrriis</groupId>
+				<artifactId>DJNativeSwing</artifactId>
+				<version>1.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse</groupId>
+				<artifactId>swt</artifactId>
+				<version>3.7M5</version>
+			</dependency>
+			<dependency>
+				<groupId>com.moxiecode</groupId>
+				<artifactId>tinymce</artifactId>
+				<version>3.4.7</version>
+			</dependency>			
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -1830,7 +1851,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.69</version>
+                    <version>1.70-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>

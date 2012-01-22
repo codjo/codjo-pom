@@ -1904,9 +1904,6 @@
             </activation>
             <modules>
                 <module>codjo-pom-agif</module>
-                <module>codjo-pom-plugin</module>
-                <module>codjo-pom-library</module>
-                <module>codjo-pom-application</module>
             </modules>
         </profile>
     </profiles>

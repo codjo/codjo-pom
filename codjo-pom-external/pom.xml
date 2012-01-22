@@ -13,12 +13,6 @@
         <version>SNAPSHOT</version>
     </parent>
     <artifactId>codjo-pom-external</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-    </dependencies>
 
     <!--
     | Project Information

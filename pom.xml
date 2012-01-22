@@ -1552,40 +1552,36 @@
                 <artifactId>codjo-i18n-gui</artifactId>
                 <version>1.7</version>
             </dependency>
-			<!-- DJProjects Native Swing -->
-			<dependency>
-				<groupId>chrriis</groupId>
-				<artifactId>DJNativeSwing-SWT</artifactId>
-				<version>1.0.1</version>
-			</dependency>
-			<dependency>
-				<groupId>chrriis</groupId>
-				<artifactId>DJNativeSwing</artifactId>
-				<version>1.0.1</version>
-			</dependency>
-			<dependency>
-				<groupId>org.eclipse</groupId>
-				<artifactId>swt</artifactId>
-				<version>3.7M5</version>
-			</dependency>
-			<dependency>
-				<groupId>com.moxiecode</groupId>
-				<artifactId>tinymce</artifactId>
-				<version>3.4.7</version>
-			</dependency>			
+            <!-- DJProjects Native Swing -->
+            <dependency>
+                <groupId>chrriis</groupId>
+                <artifactId>DJNativeSwing-SWT</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>chrriis</groupId>
+                <artifactId>DJNativeSwing</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse</groupId>
+                <artifactId>swt</artifactId>
+                <version>3.7M5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.moxiecode</groupId>
+                <artifactId>tinymce</artifactId>
+                <version>3.4.7</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <modules>
-        <module>codjo-pom-agif</module>
         <module>codjo-pom-external</module>
-        <module>codjo-pom-plugin</module>
-        <module>codjo-pom-library</module>
-        <module>codjo-pom-application</module>
     </modules>
 
     <!--
-     | Project Information
-     -->
+    | Project Information
+    -->
 
     <name>POM root</name>
     <description>Root POM file for the codjo.net framework.</description>
@@ -1850,10 +1846,9 @@
         </pluginManagement>
     </build>
 
-
     <!--
-     | Environment Information
-     -->
+    | Environment Information
+    -->
 
     <!-- <issueManagement> </issueManagement> -->
     <!--<ciManagement> </ciManagement>-->
@@ -1899,6 +1894,20 @@
             <properties>
                 <envClassifier>jdk15</envClassifier>
             </properties>
+        </profile>
+        <profile>
+            <id>activate-pom-agif</id>
+            <activation>
+                <property>
+                    <name>!external</name>
+                </property>
+            </activation>
+            <modules>
+                <module>codjo-pom-agif</module>
+                <module>codjo-pom-plugin</module>
+                <module>codjo-pom-library</module>
+                <module>codjo-pom-application</module>
+            </modules>
         </profile>
     </profiles>
 

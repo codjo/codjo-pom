@@ -1,9 +1,0 @@
-<document>
-    <body>
-        <release version="0.1" date="SVN" description="Version initiale">
-            <action dev="gonnot,gaudefr" type="add">
-                Ajout de la documentation dans le profile "documentation-full-app".
-            </action>
-        </release>
-    </body>
-</document>

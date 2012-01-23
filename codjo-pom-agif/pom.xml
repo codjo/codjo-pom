@@ -1,0 +1,215 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+     | POM Relationships
+     -->
+
+    <parent>
+        <groupId>net.codjo.pom</groupId>
+        <artifactId>codjo-pom</artifactId>
+        <version>SNAPSHOT</version>
+    </parent>
+    <artifactId>codjo-pom-agif</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>codjo-pom-plugin</module>
+        <module>codjo-pom-library</module>
+        <module>codjo-pom-application</module>
+    </modules>
+
+    <!--
+    | Project Information
+    -->
+
+    <name>POM &gt; root pom for AGIF</name>
+    <description>Root POM for AGIF pom</description>
+    <url>http://wp-documentation:8080/sites/maven/</url>
+
+    <!--
+    | Build Settings
+    -->
+
+    <packaging>pom</packaging>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/resources-filtered</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>src/test/resources-filtered</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+    </build>
+
+    <properties>
+        <defaultUser>user_dev</defaultUser>
+        <defaultUserPassword>AzhR1OMe</defaultUserPassword>
+
+        <defaultTestUser>user_tr</defaultTestUser>
+        <defaultTestUserPassword>hQOSq4VD</defaultTestUserPassword>
+
+        <batchUserLogin>user_tr</batchUserLogin>
+        <batchUserPassword>hQOSq4VD</batchUserPassword>
+
+        <defaultDatabaseApplicationUser>APP_USER</defaultDatabaseApplicationUser>
+        <defaultDatabaseApplicationPassword>APPUSRPWD</defaultDatabaseApplicationPassword>
+    </properties>
+
+    <!--
+     | Maven Environment
+     -->
+
+    <prerequisites>
+        <maven>2.0.6</maven>
+    </prerequisites>
+
+    <profiles>
+        <profile>
+            <id>process-integration</id>
+            <activation>
+                <property>
+                    <name>process</name>
+                    <value>integration</value>
+                </property>
+            </activation>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.bud.maven.mojo</groupId>
+                            <artifactId>maven-simplewebstart-plugin</artifactId>
+                            <configuration>
+                                <jnlp>
+                                    <codebase>@jnlpCodebase@</codebase>
+                                    <title>@jnlpTitle@</title>
+                                    <permission>all</permission>
+                                    <properties>
+                                        <property>
+                                            <name>server.default.url</name>
+                                            <value>server.url.@environmentType@</value>
+                                        </property>
+                                        <property>
+                                            <name>server.url.production</name>
+                                            <value>Production,@serverHost@:@serverPort@</value>
+                                        </property>
+                                        <property>
+                                            <name>server.url.recette</name>
+                                            <value>Recette,@serverHost@:@serverPort@</value>
+                                        </property>
+                                        <property>
+                                            <name>imports.vtom</name>
+                                            <value>@clientImportsVtomBatch@</value>
+                                        </property>
+                                        <property>
+                                            <name>imports.inbox</name>
+                                            <value>@clientImportsInbox@</value>
+                                        </property>
+                                        <property>
+                                            <name>broadcast.vtom</name>
+                                            <value>@clientBroadcastVtomBatch@</value>
+                                        </property>
+                                    </properties>
+                                </jnlp>
+                                <resourcesAddOn>@deploymentProperties@</resourcesAddOn>
+                            </configuration>
+                            <executions>
+                                <execution>
+                                    <phase>package</phase>
+                                    <goals>
+                                        <goal>jnlp</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                        </plugin>
+                        <plugin>
+                            <groupId>net.codjo.maven.mojo</groupId>
+                            <artifactId>maven-delivery-plugin</artifactId>
+                            <executions>
+                                <execution>
+                                    <goals>
+                                        <goal>assembler</goal>
+                                    </goals>
+                                    <phase>package</phase>
+                                </execution>
+                            </executions>
+                        </plugin>
+                        <plugin>
+                            <groupId>net.codjo.maven.mojo</groupId>
+                            <artifactId>maven-database-plugin</artifactId>
+                            <executions>
+                                <execution>
+                                    <id>pre-integration-test</id>
+                                    <phase>pre-integration-test</phase>
+                                    <goals>
+                                        <goal>compare-from-prod</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                        </plugin>
+                        <plugin>
+                            <groupId>net.codjo.maven.mojo</groupId>
+                            <artifactId>maven-test-release-plugin</artifactId>
+                            <executions>
+                                <execution>
+                                    <id>prepare-test-bundle</id>
+                                    <phase>generate-test-sources</phase>
+                                    <goals>
+                                        <goal>deliver-batch</goal>
+                                        <goal>stop-web</goal>
+                                        <goal>stop-server</goal>
+                                        <goal>deliver-server</goal>
+                                        <goal>deliver-web</goal>
+                                        <goal>deliver-test-resources</goal>
+                                    </goals>
+                                </execution>
+                                <execution>
+                                    <id>pre-integration-test</id>
+                                    <phase>pre-integration-test</phase>
+                                    <goals>
+                                        <goal>start-server</goal>
+                                        <goal>start-web</goal>
+                                    </goals>
+                                </execution>
+                                <execution>
+                                    <id>integration-test</id>
+                                    <phase>integration-test</phase>
+                                    <goals>
+                                        <goal>run</goal>
+                                    </goals>
+                                </execution>
+                                <execution>
+                                    <id>post-integration-test</id>
+                                    <phase>post-integration-test</phase>
+                                    <goals>
+                                        <goal>stop-web</goal>
+                                        <goal>stop-server</goal>
+                                        <goal>coverage-report</goal>
+                                        <goal>deploy-metrics</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+    </profiles>
+</project>

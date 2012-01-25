@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+     | POM Relationships
+     -->
+
+    <parent>
+        <groupId>net.codjo.pom</groupId>
+        <artifactId>codjo-pom</artifactId>
+        <version>SNAPSHOT</version>
+    </parent>
+    <artifactId>codjo-pom-external</artifactId>
+
+    <!--
+    | Project Information
+    -->
+
+    <name>POM &gt; root pom for components</name>
+    <description>Root POM for all codjo components (libraries, plugins, software, etc.). Internal use only.</description>
+
+    <!--
+    | Build Settings
+    -->
+
+    <packaging>pom</packaging>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/resources-filtered</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>src/test/resources-filtered</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+    </build>
+
+</project>

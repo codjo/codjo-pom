@@ -9,7 +9,7 @@
 
     <parent>
         <groupId>net.codjo.pom</groupId>
-        <artifactId>codjo-pom</artifactId>
+        <artifactId>codjo-pom-agif</artifactId>
         <version>SNAPSHOT</version>
     </parent>
     <artifactId>codjo-pom-library</artifactId>

@@ -810,14 +810,14 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-                <version>1.45-SNAPSHOT</version>
+                <version>1.45</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
                 <scope>test</scope>
-                <version>1.45-SNAPSHOT</version>
+                <version>1.45</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>
@@ -1610,7 +1610,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-codjo-plugin</artifactId>
-                    <version>1.44-SNAPSHOT</version>
+                    <version>1.44</version>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.scm</groupId>

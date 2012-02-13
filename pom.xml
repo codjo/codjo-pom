@@ -1735,7 +1735,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-database-plugin</artifactId>
-                    <version>1.50</version>
+                    <version>1.51-SNAPSHOT</version>
                     <executions>
                         <execution>
                             <goals>
@@ -1747,7 +1747,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-datagen-plugin</artifactId>
-                    <version>1.80</version>
+                    <version>1.81-SNAPSHOT</version>
                     <executions>
                         <execution>
                             <goals>
@@ -1830,7 +1830,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-profile-plugin</artifactId>
-                    <version>1.4</version>
+                    <version>1.6-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

@@ -1482,64 +1482,64 @@
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
                 <classifier>tests</classifier>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb-api</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql-api</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle-api</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase-api</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <!-- TODO : partie à supprimer a la fin du decoupage de codjo-database -->
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-main</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-common</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb</artifactId>
-                <version>2.1</version>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
 
             <dependency>

@@ -861,7 +861,7 @@
             <dependency>
                 <groupId>net.codjo.logging</groupId>
                 <artifactId>codjo-logging</artifactId>
-                <version>1.2</version>
+                <version>1.3-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.reflect</groupId>

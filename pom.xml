@@ -493,8 +493,7 @@
             <dependency>
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc</artifactId>
-                <version>11.2.0.3.0</version>
-                <classifier>${envClassifier}</classifier>
+                <version>11.2.0.3.0-${envClassifier}</version>
                 <scope>runtime</scope>
             </dependency>
             <dependency>

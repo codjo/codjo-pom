@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -136,13 +137,11 @@
                 <groupId>xerces</groupId>
                 <artifactId>xercesImpl</artifactId>
                 <version>2.8.1</version>
-                <scope>runtime</scope>
             </dependency>
             <dependency>
                 <groupId>xalan</groupId>
                 <artifactId>xalan</artifactId>
                 <version>2.7.1</version>
-                <scope>runtime</scope>
             </dependency>
             <dependency>
                 <groupId>xalan</groupId>
@@ -405,19 +404,16 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.8.1</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>jfcunit</groupId>
                 <artifactId>jfcunit</artifactId>
                 <version>2.06</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
                 <version>1.4-toolkit</version>
-                <scope>test</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>asm</groupId>
@@ -437,7 +433,6 @@
                 <groupId>org.uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
                 <version>2.4</version>
-                <scope>test</scope>
                 <classifier>${envClassifier}</classifier>
             </dependency>
             <dependency>
@@ -459,13 +454,11 @@
                 <groupId>com.mockrunner</groupId>
                 <artifactId>mockrunner</artifactId>
                 <version>0.3.1</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.easymock</groupId>
                 <artifactId>easymock</artifactId>
                 <version>2.2</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>jmock</groupId>
@@ -487,14 +480,11 @@
                 <groupId>com.sybase.jdbc</groupId>
                 <artifactId>jconnect</artifactId>
                 <version>6.0.5</version>
-                <!-- Désactivé pour le pb. des clients standalone -->
-                <!--<scope>runtime</scope>-->
             </dependency>
             <dependency>
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc</artifactId>
                 <version>11.2.0.3.0-${envClassifier}</version>
-                <scope>runtime</scope>
             </dependency>
             <dependency>
                 <groupId>com.intellij</groupId>
@@ -815,7 +805,6 @@
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
-                <scope>test</scope>
                 <version>1.45</version>
             </dependency>
             <dependency>
@@ -832,7 +821,6 @@
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <scope>test</scope>
                 <version>3.102-SNAPSHOT</version>
             </dependency>
             <dependency>
@@ -912,18 +900,11 @@
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
                 <version>3.59-SNAPSHOT</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
                 <version>1.84-SNAPSHOT</version>
-                <!-- Ne pas ré-activer car :
-                      - test-release est un moteur utilisé par un plugin (pas une librairie utilisé par une
-                        application)
-                      - et de toute facon ne marche pas avec maven 2.0.6 :-)
-                <scope>test</scope>
-                -->
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -940,7 +921,6 @@
                 <groupId>net.codjo.aspect</groupId>
                 <artifactId>codjo-aspect</artifactId>
                 <classifier>tests</classifier>
-                <scope>test</scope>
                 <version>2.10</version>
             </dependency>
 
@@ -1210,7 +1190,6 @@
                 <artifactId>codjo-broadcast-common</artifactId>
                 <version>6.51-SNAPSHOT</version>
                 <classifier>tests</classifier>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>

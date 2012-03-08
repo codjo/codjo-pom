@@ -1516,12 +1516,12 @@
             <dependency>
                 <groupId>net.codjo.i18n</groupId>
                 <artifactId>codjo-i18n-common</artifactId>
-                <version>1.7</version>
+                <version>1.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.i18n</groupId>
                 <artifactId>codjo-i18n-gui</artifactId>
-                <version>1.7</version>
+                <version>1.8-SNAPSHOT</version>
             </dependency>
             <!-- DJProjects Native Swing -->
             <dependency>

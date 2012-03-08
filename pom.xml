@@ -1072,12 +1072,12 @@
             <dependency>
                 <groupId>net.codjo.crypto</groupId>
                 <artifactId>codjo-crypto-common</artifactId>
-                <version>1.3</version>
+                <version>1.4-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.crypto</groupId>
                 <artifactId>codjo-crypto-gui</artifactId>
-                <version>1.3</version>
+                <version>1.4-SNAPSHOT</version>
             </dependency>
 
             <dependency>

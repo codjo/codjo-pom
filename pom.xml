@@ -938,12 +938,12 @@
             <dependency>
                 <groupId>net.codjo.ontology</groupId>
                 <artifactId>codjo-ontology-common</artifactId>
-                <version>1.5</version>
+                <version>1.6-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ontology</groupId>
                 <artifactId>codjo-ontology-generator</artifactId>
-                <version>1.5</version>
+                <version>1.6-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -961,17 +961,17 @@
             <dependency>
                 <groupId>net.codjo.webservices</groupId>
                 <artifactId>codjo-webservices-common</artifactId>
-                <version>1.5</version>
+                <version>1.6-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.webservices</groupId>
                 <artifactId>codjo-webservices-server</artifactId>
-                <version>1.5</version>
+                <version>1.6-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.webservices</groupId>
                 <artifactId>codjo-webservices-generator</artifactId>
-                <version>1.5</version>
+                <version>1.6-SNAPSHOT</version>
             </dependency>
 
             <dependency>

@@ -54,20 +54,6 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>net.codjo.maven.mojo</groupId>
-                <artifactId>maven-profile-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <databaseType>sybase</databaseType>
-                        </configuration>
-                        <goals>
-                            <goal>database-type</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <dependencies>

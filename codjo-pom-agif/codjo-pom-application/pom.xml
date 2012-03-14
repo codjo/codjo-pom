@@ -28,19 +28,6 @@
 
     <packaging>pom</packaging>
     <build>
-        <plugins>
-            <plugin>
-                <groupId>net.codjo.maven.mojo</groupId>
-                <artifactId>maven-profile-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>database-type</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
         <pluginManagement>
             <plugins>
                 <plugin>

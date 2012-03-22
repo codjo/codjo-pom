@@ -856,23 +856,23 @@
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-builder</artifactId>
-                <version>2.41</version>
+                <version>2.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
-                <version>2.41</version>
+                <version>2.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
                 <classifier>tests</classifier>
-                <version>2.41</version>
+                <version>2.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-spy</artifactId>
-                <version>2.41</version>
+                <version>2.42-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.standalone-common</groupId>
@@ -882,18 +882,18 @@
             <dependency>
                 <groupId>net.codjo.tokio</groupId>
                 <artifactId>codjo-tokio</artifactId>
-                <version>2.50</version>
+                <version>2.51-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
-                <version>2.71</version>
+                <version>2.72-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
                 <classifier>tests</classifier>
-                <version>2.71</version>
+                <version>2.72-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.test</groupId>
@@ -1182,45 +1182,45 @@
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-gui</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
                 <classifier>datagen-selector</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-batch</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-release-test</artifactId>
-                <version>6.51</version>
+                <version>6.52-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

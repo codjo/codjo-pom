@@ -1417,28 +1417,28 @@
             <dependency>
                 <groupId>net.codjo.referential</groupId>
                 <artifactId>codjo-referential-gui</artifactId>
-                <version>1.63</version>
+                <version>1.64-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.referential</groupId>
                 <artifactId>codjo-referential-gui-addon</artifactId>
-                <version>1.63</version>
+                <version>1.64-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.referential</groupId>
                 <artifactId>codjo-referential-gui-addon</artifactId>
-                <version>1.63</version>
+                <version>1.64-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.referential</groupId>
                 <artifactId>codjo-referential-datagen</artifactId>
-                <version>1.63</version>
+                <version>1.64-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.referential</groupId>
                 <artifactId>codjo-referential-datagen</artifactId>
-                <version>1.63</version>
+                <version>1.64-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
 

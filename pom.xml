@@ -887,13 +887,13 @@
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
-                <version>2.72-SNAPSHOT</version>
+                <version>2.71</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
                 <classifier>tests</classifier>
-                <version>2.72-SNAPSHOT</version>
+                <version>2.71</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.test</groupId>
@@ -1134,93 +1134,93 @@
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-common</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-gui</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-batch</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-gui</artifactId>
-                <version>3.44-SNAPSHOT</version>
+                <version>3.43</version>
             </dependency>
 
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-gui</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
                 <classifier>datagen-selector</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-batch</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-release-test</artifactId>
-                <version>6.52-SNAPSHOT</version>
+                <version>6.51</version>
                 <classifier>tests</classifier>
             </dependency>
 

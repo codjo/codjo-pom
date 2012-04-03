@@ -1725,7 +1725,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-datagen-plugin</artifactId>
-                    <version>1.81</version>
+                    <version>1.82-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>net.codjo.database</groupId>

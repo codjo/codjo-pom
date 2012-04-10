@@ -1128,7 +1128,7 @@
             <dependency>
                 <groupId>net.codjo.shipment</groupId>
                 <artifactId>codjo-shipment</artifactId>
-                <version>3.3</version>
+                <version>3.4-SNAPSHOT</version>
             </dependency>
 
             <dependency>

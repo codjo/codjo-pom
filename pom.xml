@@ -467,7 +467,7 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito</artifactId>
-                <version>1.9.0</version>
+                <version>1.7</version>
             </dependency>
             <dependency>
                 <groupId>org.mockftpserver</groupId>
@@ -1440,6 +1440,11 @@
                 <artifactId>codjo-referential-datagen</artifactId>
                 <version>1.65-SNAPSHOT</version>
                 <classifier>datagen</classifier>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.referential</groupId>
+                <artifactId>codjo-referential-server</artifactId>
+                <version>1.65-SNAPSHOT</version>
             </dependency>
 
             <dependency>

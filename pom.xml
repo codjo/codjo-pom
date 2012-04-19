@@ -898,12 +898,12 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.59</version>
+                <version>3.60-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.84</version>
+                <version>1.85-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>

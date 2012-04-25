@@ -1083,40 +1083,40 @@
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.77</version>
+                <version>1.78-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1521,12 +1521,12 @@
             <dependency>
                 <groupId>net.codjo.i18n</groupId>
                 <artifactId>codjo-i18n-common</artifactId>
-                <version>1.9</version>
+                <version>1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.i18n</groupId>
                 <artifactId>codjo-i18n-gui</artifactId>
-                <version>1.9</version>
+                <version>1.10-SNAPSHOT</version>
             </dependency>
             <!-- DJProjects Native Swing -->
             <dependency>

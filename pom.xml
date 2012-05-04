@@ -412,7 +412,7 @@
             <dependency>
                 <groupId>uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
-                <version>1.4-toolkit</version>
+                <version>${uispecVersion}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>asm</groupId>
@@ -856,23 +856,23 @@
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-builder</artifactId>
-                <version>2.43</version>
+                <version>2.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
-                <version>2.43</version>
+                <version>2.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
                 <classifier>tests</classifier>
-                <version>2.43</version>
+                <version>2.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-spy</artifactId>
-                <version>2.43</version>
+                <version>2.44-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.standalone-common</groupId>
@@ -1880,6 +1880,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk16</envClassifier>
+                <uispecVersion>2.4-jdk6-toolkit</uispecVersion>
             </properties>
         </profile>
         <profile>
@@ -1889,6 +1890,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk15</envClassifier>
+                <uispecVersion>1.4-toolkit</uispecVersion>
             </properties>
         </profile>
         <profile>

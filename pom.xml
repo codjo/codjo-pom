@@ -814,13 +814,13 @@
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
-                <version>3.103</version>
+                <version>3.104-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <version>3.103</version>
+                <version>3.104-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.xml</groupId>
@@ -1134,49 +1134,49 @@
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-common</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-gui</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-batch</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-gui</artifactId>
-                <version>3.44</version>
+                <version>3.45-SNAPSHOT</version>
             </dependency>
 
             <dependency>

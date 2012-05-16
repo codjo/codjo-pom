@@ -814,13 +814,13 @@
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
-                <version>3.105-SNAPSHOT</version>
+                <version>3.105</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <version>3.105-SNAPSHOT</version>
+                <version>3.105</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.xml</groupId>
@@ -1060,12 +1060,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.13-SNAPSHOT</version>
+                <version>1.13</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.13-SNAPSHOT</version>
+                <version>1.13</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1134,49 +1134,49 @@
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-common</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-gui</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-batch</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-gui</artifactId>
-                <version>3.46-SNAPSHOT</version>
+                <version>3.46</version>
             </dependency>
 
             <dependency>
@@ -1586,7 +1586,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-codjo-plugin</artifactId>
-                    <version>1.47-SNAPSHOT</version>
+                    <version>1.47</version>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.scm</groupId>

@@ -412,7 +412,7 @@
             <dependency>
                 <groupId>uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
-                <version>${uispecVersion}</version>
+                <version>1.4-toolkit</version>
                 <exclusions>
                     <exclusion>
                         <groupId>asm</groupId>
@@ -431,8 +431,7 @@
             <dependency>
                 <groupId>org.uispec4j</groupId>
                 <artifactId>uispec4j</artifactId>
-                <version>2.4</version>
-                <classifier>${envClassifier}</classifier>
+                <version>${uispecVersion}</version>
             </dependency>
             <dependency>
                 <groupId>jdepend</groupId>
@@ -1880,7 +1879,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk16</envClassifier>
-                <uispecVersion>2.4-jdk6-toolkit</uispecVersion>
+                <uispecVersion>2.4-jdk16-toolkit</uispecVersion>
             </properties>
         </profile>
         <profile>
@@ -1890,7 +1889,7 @@
             </activation>
             <properties>
                 <envClassifier>jdk15</envClassifier>
-                <uispecVersion>1.4-toolkit</uispecVersion>
+                <uispecVersion>2.4-jdk15-toolkit</uispecVersion>
             </properties>
         </profile>
         <profile>

@@ -1831,13 +1831,11 @@
         </pluginManagement>
         <extensions>
             <!-- Version Hackee pour gerer le proxy d'entreprise -->
-            <!--
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-webdav</artifactId>
                 <version>1.0-beta-2-toolkit</version>
             </extension>
-        -->
         </extensions>
 
     </build>

@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -1828,6 +1829,15 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <extensions>
+            <!-- Version Hackee pour gerer le proxy d'entreprise -->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-webdav</artifactId>
+                <version>1.0-beta-2-toolkit</version>
+            </extension>
+        </extensions>
+
     </build>
 
     <!--
@@ -1903,6 +1913,23 @@
                 <module>codjo-pom-agif</module>
             </modules>
         </profile>
+        <profile>
+            <id>external-deployment</id>
+            <activation>
+                <property>
+                    <name>external</name>
+                </property>
+            </activation>
+            <distributionManagement>
+                <repository>
+                    <id>codjo-binary-repository</id>
+                    <url>http://repo.codjo.net/maven2/inhouse</url>
+                </repository>
+                <snapshotRepository>
+                    <id>codjo-binary-repository</id>
+                    <url>dav:http//repo.codjo.net/maven2/inhouse-snapshot</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </profile>
     </profiles>
-
 </project>

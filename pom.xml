@@ -1829,15 +1829,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <extensions>
-            <!-- Version Hackee pour gerer le proxy d'entreprise -->
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-webdav</artifactId>
-                <version>1.0-beta-2-toolkit</version>
-            </extension>
-        </extensions>
-
     </build>
 
     <!--
@@ -1917,13 +1908,14 @@
             <id>external-deployment</id>
             <activation>
                 <property>
-                    <name>external</name>
+                    <name>remote</name>
+                    <value>codjo</value>
                 </property>
             </activation>
             <distributionManagement>
                 <repository>
                     <id>codjo-binary-repository</id>
-                    <url>http://repo.codjo.net/maven2/inhouse</url>
+                    <url>dav:http://repo.codjo.net/maven2/inhouse</url>
                 </repository>
                 <snapshotRepository>
                     <id>codjo-binary-repository</id>

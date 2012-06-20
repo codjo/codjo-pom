@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -1022,40 +1021,40 @@
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
                 <classifier>tests</classifier>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-client</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-gui</artifactId>
-                <version>0.62</version>
+                <version>0.63-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>

@@ -902,7 +902,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.87-SNAPSHOT</version>
+                <version>1.86</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>

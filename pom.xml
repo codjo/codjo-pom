@@ -206,11 +206,6 @@
                 <version>1.3</version>
             </dependency>
             <dependency>
-                <groupId>jdbc</groupId>
-                <artifactId>jdbc-stdext</artifactId>
-                <version>2.0</version>
-            </dependency>
-            <dependency>
                 <groupId>velocity</groupId>
                 <artifactId>velocity</artifactId>
                 <version>1.4</version>
@@ -442,11 +437,6 @@
                 <groupId>hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
                 <version>1.7.1</version>
-            </dependency>
-            <dependency>
-                <groupId>ejb</groupId>
-                <artifactId>ejb</artifactId>
-                <version>2.0</version>
             </dependency>
             <dependency>
                 <groupId>com.mockrunner</groupId>
@@ -907,7 +897,7 @@
             <dependency>
                 <groupId>net.codjo.util</groupId>
                 <artifactId>codjo-util</artifactId>
-                <version>1.10</version>
+                <version>1.11-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1021,50 +1011,50 @@
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
                 <classifier>tests</classifier>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-client</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-gui</artifactId>
-                <version>0.64</version>
+                <version>0.65-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.13</version>
+                <version>1.14-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.13</version>
+                <version>1.14-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

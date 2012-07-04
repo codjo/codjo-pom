@@ -897,7 +897,7 @@
             <dependency>
                 <groupId>net.codjo.util</groupId>
                 <artifactId>codjo-util</artifactId>
-                <version>1.11-SNAPSHOT</version>
+                <version>1.11</version>
             </dependency>
 
             <dependency>
@@ -1011,50 +1011,50 @@
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
                 <classifier>tests</classifier>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-client</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-gui</artifactId>
-                <version>0.65-SNAPSHOT</version>
+                <version>0.65</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.14-SNAPSHOT</version>
+                <version>1.14</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.14-SNAPSHOT</version>
+                <version>1.14</version>
                 <classifier>tests</classifier>
             </dependency>
 

@@ -1722,6 +1722,11 @@
                     <version>1.83</version>
                     <dependencies>
                         <dependency>
+                            <groupId>net.codjo.datagen</groupId>
+                            <artifactId>codjo-datagen</artifactId>
+                            <version>2.74</version>
+                        </dependency>
+                        <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
                             <version>2.6</version>

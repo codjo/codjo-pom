@@ -1072,40 +1072,40 @@
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

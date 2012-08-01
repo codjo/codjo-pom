@@ -1452,59 +1452,59 @@
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
                 <classifier>tests</classifier>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb-api</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql-api</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle-api</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase-api</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <!-- TODO : partie à supprimer a la fin du decoupage de codjo-database -->
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-common</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb</artifactId>
-                <version>2.6</version>
+                <version>2.7-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1575,7 +1575,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-codjo-plugin</artifactId>
-                    <version>1.49</version>
+                    <version>1.50-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.scm</groupId>
@@ -1705,7 +1705,7 @@
                         <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
-                            <version>2.6</version>
+                            <version>2.7-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>
@@ -1729,7 +1729,7 @@
                         <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
-                            <version>2.6</version>
+                            <version>2.7-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>

@@ -1011,40 +1011,40 @@
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
                 <classifier>tests</classifier>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-client</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-gui</artifactId>
-                <version>0.67-SNAPSHOT</version>
+                <version>0.67</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>

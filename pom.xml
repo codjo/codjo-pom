@@ -1011,40 +1011,40 @@
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-common</artifactId>
                 <classifier>tests</classifier>
-                <version>0.68</version>
+                <version>0.69</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-server</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-client</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.security</groupId>
                 <artifactId>codjo-security-gui</artifactId>
-                <version>0.68</version>
+                <version>0.69</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
@@ -1123,49 +1123,49 @@
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-common</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-server</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-batch</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-kernel</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.imports</groupId>
                 <artifactId>codjo-imports-plugin-filter-gui</artifactId>
-                <version>3.47</version>
+                <version>3.48</version>
             </dependency>
 
             <dependency>

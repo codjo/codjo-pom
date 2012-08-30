@@ -892,7 +892,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.89-SNAPSHOT</version>
+                <version>1.89</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1395,7 +1395,7 @@
             <dependency>
                 <groupId>net.codjo.tools</groupId>
                 <artifactId>codjo-tools-event-recorder</artifactId>
-                <version>2.2-SNAPSHOT</version>
+                <version>2.2</version>
             </dependency>
 
             <dependency>
@@ -1821,7 +1821,7 @@
                         <dependency>
                             <groupId>net.codjo.release-test</groupId>
                             <artifactId>codjo-release-test</artifactId>
-                            <version>1.89-SNAPSHOT</version>
+                            <version>1.89</version>
                         </dependency>
                     </dependencies>
                 </plugin>

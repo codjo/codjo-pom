@@ -892,7 +892,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.88</version>
+                <version>1.89-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1385,10 +1385,17 @@
                 <classifier>tests</classifier>
             </dependency>
 
+            <!-- TODO A supprimer quand tout le monde sera passé a codjo-tools-event-recorder -->
             <dependency>
                 <groupId>net.codjo.tools</groupId>
                 <artifactId>codjo-event-recorder</artifactId>
                 <version>2.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.codjo.tools</groupId>
+                <artifactId>codjo-tools-event-recorder</artifactId>
+                <version>2.2-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1814,7 +1821,7 @@
                         <dependency>
                             <groupId>net.codjo.release-test</groupId>
                             <artifactId>codjo-release-test</artifactId>
-                            <version>1.88</version>
+                            <version>1.89-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                 </plugin>

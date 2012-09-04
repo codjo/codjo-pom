@@ -771,17 +771,17 @@
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-common</artifactId>
-                <version>0.17-SNAPSHOT</version>
+                <version>0.16</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-server</artifactId>
-                <version>0.17-SNAPSHOT</version>
+                <version>0.16</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-gui</artifactId>
-                <version>0.17-SNAPSHOT</version>
+                <version>0.16</version>
             </dependency>
 
             <dependency>

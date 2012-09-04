@@ -771,17 +771,17 @@
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-common</artifactId>
-                <version>0.16</version>
+                <version>0.17-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-server</artifactId>
-                <version>0.16</version>
+                <version>0.17-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-gui</artifactId>
-                <version>0.16</version>
+                <version>0.17-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1395,7 +1395,7 @@
             <dependency>
                 <groupId>net.codjo.tools</groupId>
                 <artifactId>codjo-tools-event-recorder</artifactId>
-                <version>2.2</version>
+                <version>2.3-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1639,7 +1639,7 @@
                     <configuration>
                         <pushChanges>false</pushChanges>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <preparationGoals>clean install</preparationGoals>
+                        <preparationGoals>clean</preparationGoals>
                         <goals>deploy</goals>
                     </configuration>
                 </plugin>

@@ -1395,7 +1395,7 @@
             <dependency>
                 <groupId>net.codjo.tools</groupId>
                 <artifactId>codjo-tools-event-recorder</artifactId>
-                <version>2.2</version>
+                <version>2.3</version>
             </dependency>
 
             <dependency>
@@ -1639,7 +1639,7 @@
                     <configuration>
                         <pushChanges>false</pushChanges>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <preparationGoals>clean install</preparationGoals>
+                        <preparationGoals>clean</preparationGoals>
                         <goals>deploy</goals>
                     </configuration>
                 </plugin>

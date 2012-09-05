@@ -1395,7 +1395,7 @@
             <dependency>
                 <groupId>net.codjo.tools</groupId>
                 <artifactId>codjo-tools-event-recorder</artifactId>
-                <version>2.3-SNAPSHOT</version>
+                <version>2.3</version>
             </dependency>
 
             <dependency>

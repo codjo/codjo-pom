@@ -1639,7 +1639,7 @@
                     <configuration>
                         <pushChanges>false</pushChanges>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <preparationGoals>clean</preparationGoals>
+                        <preparationGoals>clean install</preparationGoals>
                         <goals>deploy</goals>
                     </configuration>
                 </plugin>

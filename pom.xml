@@ -1310,6 +1310,12 @@
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
                 <version>3.55-SNAPSHOT</version>
+                <classifier>tests</classifier>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.control</groupId>
+                <artifactId>codjo-control-server</artifactId>
+                <version>3.55-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
 

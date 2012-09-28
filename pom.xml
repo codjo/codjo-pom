@@ -803,13 +803,13 @@
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
-                <version>3.107</version>
+                <version>3.108</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <version>3.107</version>
+                <version>3.108</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.xml</groupId>
@@ -1049,12 +1049,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.14</version>
+                <version>1.15</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.14</version>
+                <version>1.15</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1282,34 +1282,40 @@
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-common</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-gui</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.control</groupId>
                 <artifactId>codjo-control-server</artifactId>
-                <version>3.54</version>
+                <version>3.55</version>
+                <classifier>tests</classifier>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.control</groupId>
+                <artifactId>codjo-control-server</artifactId>
+                <version>3.55</version>
                 <classifier>datagen</classifier>
             </dependency>
 
@@ -1933,4 +1939,3 @@
         </profile>
     </profiles>
 </project>
-<!-- Just to commit -->

@@ -399,6 +399,12 @@
                 <artifactId>junit</artifactId>
                 <version>4.8.1</version>
             </dependency>
+			<dependency>
+				<groupId>com.googlecode.junit-ext</groupId>
+				<artifactId>junit-ext</artifactId>
+				<classifier>junit45</classifier>
+				<version>1.0-RC3</version>
+			</dependency>			
             <dependency>
                 <groupId>jfcunit</groupId>
                 <artifactId>jfcunit</artifactId>
@@ -433,11 +439,12 @@
                 <artifactId>jdepend</artifactId>
                 <version>2.9.1</version>
             </dependency>
-            <dependency>
-                <groupId>hsqldb</groupId>
-                <artifactId>hsqldb</artifactId>
-                <version>1.7.1</version>
-            </dependency>
+			<dependency>
+				<groupId>org.hsqldb</groupId>
+				<artifactId>hsqldb</artifactId>
+				<version>2.2.8</version>
+				<classifier>jdk5</classifier>
+			</dependency>
             <dependency>
                 <groupId>com.mockrunner</groupId>
                 <artifactId>mockrunner</artifactId>
@@ -887,7 +894,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.60</version>
+                <version>3.61-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
@@ -1465,59 +1472,59 @@
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
                 <classifier>tests</classifier>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb-api</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql-api</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle-api</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase-api</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <!-- TODO : partie à supprimer a la fin du decoupage de codjo-database -->
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-common</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql</artifactId>
-                <version>2.7</version>
+		<version>2.8-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb</artifactId>
-                <version>2.7</version>
+                <version>2.8-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1542,10 +1549,15 @@
                 <version>1.0.1</version>
             </dependency>
             <dependency>
-                <groupId>org.eclipse</groupId>
-                <artifactId>swt</artifactId>
-                <version>3.7M5</version>
+		<groupId>${swt.groupId}</groupId>
+		<artifactId>${swt.artifactId}</artifactId>
+		<version>3.8</version>
             </dependency>
+	    <dependency>
+		<groupId>net.java.dev.jna</groupId>
+		<artifactId>jna</artifactId>
+		<version>3.3.0</version>
+	    </dependency>	    
             <dependency>
                 <groupId>com.moxiecode</groupId>
                 <artifactId>tinymce</artifactId>
@@ -1937,5 +1949,71 @@
                 </snapshotRepository>
             </distributionManagement>
         </profile>
+	
+	<!-- SWT profiles -->
+        <profile>
+            <id>linux_x86</id>
+            <activation>
+                <os>
+                    <family>linux</family>
+		    <arch>x86</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.gtk.linux.x86</swt.artifactId>
+            </properties>
+        </profile>
+        <profile>
+            <id>linux_x86_64</id>
+            <activation>
+                <os>
+                    <family>linux</family>
+		    <arch>amd64</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.gtk.linux.x86_64</swt.artifactId>
+            </properties>
+        </profile>	
+        <profile>
+            <id>windows_x86</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+		    <arch>x86</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.win32.win32.x86</swt.artifactId>
+            </properties>
+        </profile>
+        <profile>
+            <id>windows_x86_64</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+		    <arch>x86_64</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.win32.win32.x86_64</swt.artifactId>
+            </properties>
+        </profile>	
+        <profile>
+            <id>mac</id>
+            <activation>
+                <os>
+                    <name>mac os x</name>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt.carbon</swt.groupId>
+                <swt.artifactId>macosx</swt.artifactId>
+            </properties>
+        </profile>	
     </profiles>
 </project>

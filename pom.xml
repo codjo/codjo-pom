@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
 
     <modelVersion>4.0.0</modelVersion>
@@ -400,6 +401,12 @@
                 <version>4.8.1</version>
             </dependency>
             <dependency>
+                <groupId>com.googlecode.junit-ext</groupId>
+                <artifactId>junit-ext</artifactId>
+                <classifier>junit45</classifier>
+                <version>1.0-RC3</version>
+            </dependency>
+            <dependency>
                 <groupId>jfcunit</groupId>
                 <artifactId>jfcunit</artifactId>
                 <version>2.06</version>
@@ -434,9 +441,10 @@
                 <version>2.9.1</version>
             </dependency>
             <dependency>
-                <groupId>hsqldb</groupId>
+                <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
-                <version>1.7.1</version>
+                <version>2.2.8</version>
+                <classifier>${envClassifier}</classifier>
             </dependency>
             <dependency>
                 <groupId>com.mockrunner</groupId>
@@ -1542,9 +1550,9 @@
                 <version>1.0.1</version>
             </dependency>
             <dependency>
-                <groupId>org.eclipse</groupId>
-                <artifactId>swt</artifactId>
-                <version>3.7M5</version>
+                <groupId>${swt.groupId}</groupId>
+                <artifactId>${swt.artifactId}</artifactId>
+                <version>3.8</version>
             </dependency>
             <dependency>
                 <groupId>com.moxiecode</groupId>
@@ -1936,6 +1944,87 @@
                     <url>dav:http//repo.codjo.net/maven2/inhouse-snapshot</url>
                 </snapshotRepository>
             </distributionManagement>
+        </profile>
+        <!-- SWT profiles -->
+        <profile>
+            <id>linux_x86</id>
+            <activation>
+                <os>
+                    <family>linux</family>
+                    <arch>x86</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.gtk.linux.x86</swt.artifactId>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <!-- Due to swt on unix plateform -->
+                    <groupId>net.java.dev.jna</groupId>
+                    <artifactId>jna</artifactId>
+                    <version>3.3.0</version>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>linux_x86_64</id>
+            <activation>
+                <os>
+                    <family>linux</family>
+                    <arch>amd64</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.gtk.linux.x86_64</swt.artifactId>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <!-- Due to swt on unix plateform -->
+                    <groupId>net.java.dev.jna</groupId>
+                    <artifactId>jna</artifactId>
+                    <version>3.3.0</version>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>windows_x86</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                    <arch>x86</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.win32.win32.x86</swt.artifactId>
+            </properties>
+        </profile>
+        <profile>
+            <id>windows_x86_64</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                    <arch>x86_64</arch>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.win32.win32.x86_64</swt.artifactId>
+            </properties>
+        </profile>
+        <profile>
+            <id>mac</id>
+            <activation>
+                <os>
+                    <name>mac os x</name>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>org.eclipse.swt.carbon</swt.groupId>
+                <swt.artifactId>macosx</swt.artifactId>
+            </properties>
         </profile>
     </profiles>
 </project>

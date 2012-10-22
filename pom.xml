@@ -1726,7 +1726,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-database-plugin</artifactId>
-                    <version>1.53</version>
+                    <version>1.54-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>net.codjo.database</groupId>

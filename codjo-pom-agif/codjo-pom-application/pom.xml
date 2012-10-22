@@ -35,7 +35,8 @@
                     <artifactId>maven-release-plugin</artifactId>
                     <configuration>
                         <preparationGoals>clean install</preparationGoals>
-                        <arguments>-Dprocess=integration -Ddatabase=integration -Dserver=integration</arguments>
+                        <arguments>-Ddatabase=integration</arguments>
+                        <releaseProfiles>process-integation,database-integration,server-integration</releaseProfiles>
                         <!-- IL FAUT ABSOLUMENT LAISSER INSTALL -->
                         <goals>install</goals>
                     </configuration>

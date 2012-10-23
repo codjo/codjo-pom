@@ -905,7 +905,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.90</version>
+                <version>1.91-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1840,7 +1840,7 @@
                         <dependency>
                             <groupId>net.codjo.release-test</groupId>
                             <artifactId>codjo-release-test</artifactId>
-                            <version>1.90</version>
+                            <version>1.91-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                 </plugin>

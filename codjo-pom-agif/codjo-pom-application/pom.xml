@@ -36,7 +36,7 @@
                     <configuration>
                         <preparationGoals>clean install</preparationGoals>
                         <arguments>-Ddatabase=integration</arguments>
-                        <releaseProfiles>process-integation,database-integration,server-integration</releaseProfiles>
+                        <releaseProfiles>process-integration,database-integration,server-integration</releaseProfiles>
                         <!-- IL FAUT ABSOLUMENT LAISSER INSTALL -->
                         <goals>install</goals>
                     </configuration>

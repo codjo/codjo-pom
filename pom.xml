@@ -905,7 +905,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.91-SNAPSHOT</version>
+                <version>1.91</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1726,7 +1726,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-database-plugin</artifactId>
-                    <version>1.54-SNAPSHOT</version>
+                    <version>1.54</version>
                     <dependencies>
                         <dependency>
                             <groupId>net.codjo.database</groupId>
@@ -1840,7 +1840,7 @@
                         <dependency>
                             <groupId>net.codjo.release-test</groupId>
                             <artifactId>codjo-release-test</artifactId>
-                            <version>1.91-SNAPSHOT</version>
+                            <version>1.91</version>
                         </dependency>
                     </dependencies>
                 </plugin>

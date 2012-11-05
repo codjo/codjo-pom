@@ -816,13 +816,13 @@
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
-                <version>3.108</version>
+                <version>3.109-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <version>3.108</version>
+                <version>3.109-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.xml</groupId>

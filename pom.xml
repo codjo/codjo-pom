@@ -889,13 +889,13 @@
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
-                <version>2.78-SNAPSHOT</version>
+                <version>2.78</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.datagen</groupId>
                 <artifactId>codjo-datagen</artifactId>
                 <classifier>tests</classifier>
-                <version>2.78-SNAPSHOT</version>
+                <version>2.78</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.test</groupId>
@@ -1745,12 +1745,12 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-datagen-plugin</artifactId>
-                    <version>1.85-SNAPSHOT</version>
+                    <version>1.85</version>
                     <dependencies>
                         <dependency>
                             <groupId>net.codjo.datagen</groupId>
                             <artifactId>codjo-datagen</artifactId>
-                            <version>2.78-SNAPSHOT</version>
+                            <version>2.78</version>
                         </dependency>
                         <dependency>
                             <groupId>net.codjo.database</groupId>

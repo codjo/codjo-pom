@@ -1745,13 +1745,8 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-datagen-plugin</artifactId>
-                    <version>1.85</version>
+                    <version>1.86-SNAPSHOT</version>
                     <dependencies>
-                        <dependency>
-                            <groupId>net.codjo.datagen</groupId>
-                            <artifactId>codjo-datagen</artifactId>
-                            <version>2.78</version>
-                        </dependency>
                         <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
@@ -1836,13 +1831,6 @@
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
                     <version>1.72</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>net.codjo.release-test</groupId>
-                            <artifactId>codjo-release-test</artifactId>
-                            <version>1.91</version>
-                        </dependency>
-                    </dependencies>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

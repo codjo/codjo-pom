@@ -858,23 +858,23 @@
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-builder</artifactId>
-                <version>2.45</version>
+                <version>2.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
-                <version>2.45</version>
+                <version>2.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-server</artifactId>
                 <classifier>tests</classifier>
-                <version>2.45</version>
+                <version>2.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.sql</groupId>
                 <artifactId>codjo-sql-spy</artifactId>
-                <version>2.45</version>
+                <version>2.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.standalone-common</groupId>
@@ -1478,59 +1478,59 @@
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-api</artifactId>
                 <classifier>tests</classifier>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb-api</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql-api</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle-api</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase-api</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <!-- TODO : partie à supprimer a la fin du decoupage de codjo-database -->
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-common</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-sybase</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-oracle</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-mysql</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.database</groupId>
                 <artifactId>codjo-database-hsqldb</artifactId>
-                <version>2.8</version>
+                <version>2.9-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -1726,12 +1726,12 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-database-plugin</artifactId>
-                    <version>1.54</version>
+                    <version>1.55-SNAPSHOT</version>
                     <dependencies>
                         <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
-                            <version>2.8</version>
+                            <version>2.9-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>
@@ -1745,17 +1745,12 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-datagen-plugin</artifactId>
-                    <version>1.85</version>
+                    <version>1.86-SNAPSHOT</version>
                     <dependencies>
-                        <dependency>
-                            <groupId>net.codjo.datagen</groupId>
-                            <artifactId>codjo-datagen</artifactId>
-                            <version>2.78</version>
-                        </dependency>
                         <dependency>
                             <groupId>net.codjo.database</groupId>
                             <artifactId>codjo-database-${databaseType}</artifactId>
-                            <version>2.8</version>
+                            <version>2.9-SNAPSHOT</version>
                         </dependency>
                     </dependencies>
                     <executions>
@@ -1836,13 +1831,6 @@
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
                     <version>1.72</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>net.codjo.release-test</groupId>
-                            <artifactId>codjo-release-test</artifactId>
-                            <version>1.91</version>
-                        </dependency>
-                    </dependencies>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

@@ -835,13 +835,13 @@
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
-                <version>3.110-SNAPSHOT</version>
+                <version>3.110</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.gui-toolkit</groupId>
                 <artifactId>codjo-gui-toolkit</artifactId>
                 <classifier>tests</classifier>
-                <version>3.110-SNAPSHOT</version>
+                <version>3.110</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.xml</groupId>
@@ -1081,12 +1081,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.17-SNAPSHOT</version>
+                <version>1.17</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.17-SNAPSHOT</version>
+                <version>1.17</version>
                 <classifier>tests</classifier>
             </dependency>
 

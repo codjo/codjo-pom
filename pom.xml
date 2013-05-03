@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.61</version>
+                <version>3.62-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>

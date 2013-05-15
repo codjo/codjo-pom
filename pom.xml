@@ -924,7 +924,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.91</version>
+                <version>1.92-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -2034,8 +2034,8 @@
                 </os>
             </activation>
             <properties>
-                <swt.groupId>org.eclipse.swt.carbon</swt.groupId>
-                <swt.artifactId>macosx</swt.artifactId>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.cocoa.macosx</swt.artifactId>
             </properties>
         </profile>
     </profiles>

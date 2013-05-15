@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.61</version>
+                <version>3.62</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
@@ -1081,12 +1081,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.17</version>
+                <version>1.18</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.17</version>
+                <version>1.18</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1248,50 +1248,50 @@
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
                 <classifier>segmentation</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-common</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-gui</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-server</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.75</version>
+                <version>1.76</version>
                 <classifier>sql</classifier>
             </dependency>
 
@@ -2034,8 +2034,8 @@
                 </os>
             </activation>
             <properties>
-                <swt.groupId>org.eclipse.swt.carbon</swt.groupId>
-                <swt.artifactId>macosx</swt.artifactId>
+                <swt.groupId>org.eclipse.swt</swt.groupId>
+                <swt.artifactId>org.eclipse.swt.cocoa.macosx</swt.artifactId>
             </properties>
         </profile>
     </profiles>

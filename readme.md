@@ -8,3 +8,7 @@ Installation
 
 * To deploy all available pom : ```mvn clean install```
 * To deploy only open-source pom : ```mvn clean install -Dexternal=true``` 
+
+Contributions
+-------------
+

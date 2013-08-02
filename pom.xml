@@ -819,13 +819,13 @@
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
-                <version>1.45</version>
+                <version>1.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.agent</groupId>
                 <artifactId>codjo-agent</artifactId>
                 <classifier>tests</classifier>
-                <version>1.45</version>
+                <version>1.46-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.variable</groupId>

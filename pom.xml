@@ -929,7 +929,7 @@
             <dependency>
                 <groupId>net.codjo.util</groupId>
                 <artifactId>codjo-util</artifactId>
-                <version>1.13</version>
+                <version>1.14-SNAPSHOT</version>
             </dependency>
 
             <dependency>

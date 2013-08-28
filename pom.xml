@@ -1104,40 +1104,40 @@
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81-SNAPSHOT</version>
+                <version>1.80</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1354,72 +1354,72 @@
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-common</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-common</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-web</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-web</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>web</classifier>
                 <type>sh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>server</classifier>
                 <type>sh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>import</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>export</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-gui</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-gui</artifactId>
-                <version>1.40-SNAPSHOT</version>
+                <version>1.39</version>
                 <classifier>tests</classifier>
             </dependency>
 

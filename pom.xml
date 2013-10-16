@@ -919,7 +919,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.63</version>
+                <version>3.64-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
@@ -1104,40 +1104,40 @@
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.81</version>
+                <version>1.82-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1248,50 +1248,50 @@
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>segmentation</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-common</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-gui</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-server</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.78</version>
+                <version>1.79-SNAPSHOT</version>
                 <classifier>sql</classifier>
             </dependency>
 
@@ -1354,72 +1354,72 @@
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-common</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-common</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-web</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-web</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>web</classifier>
                 <type>sh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>server</classifier>
                 <type>sh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-server</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>import</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-batch</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>export</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-gui</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.plugin</groupId>
                 <artifactId>codjo-plugin-gui</artifactId>
-                <version>1.39</version>
+                <version>1.40-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

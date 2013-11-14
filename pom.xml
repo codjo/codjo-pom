@@ -1253,50 +1253,50 @@
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
                 <classifier>segmentation</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-common</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-gui</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-server</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.79</version>
+                <version>1.80-SNAPSHOT</version>
                 <classifier>sql</classifier>
             </dependency>
 

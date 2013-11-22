@@ -924,7 +924,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.65-SNAPSHOT</version>
+                <version>3.64</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
@@ -1253,50 +1253,50 @@
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-batch</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
                 <classifier>segmentation</classifier>
                 <type>ksh</type>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-common</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-datagen</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-gui</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-server</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.segmentation</groupId>
                 <artifactId>codjo-segmentation-sql</artifactId>
-                <version>1.80-SNAPSHOT</version>
+                <version>1.79</version>
                 <classifier>sql</classifier>
             </dependency>
 
@@ -1854,7 +1854,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.75-SNAPSHOT</version>
+                    <version>1.74</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

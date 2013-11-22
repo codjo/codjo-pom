@@ -26,7 +26,10 @@
     <name>POM &gt; root pom for AGIF</name>
     <description>Root POM for AGIF pom</description>
     <url>http://wp-documentation:8080/sites/maven/</url>
-
+    <organization>
+        <name>Allianz Global Investors</name>
+        <url>www.allianzgi.com</url>
+    </organization>
     <!--
     | Build Settings
     -->

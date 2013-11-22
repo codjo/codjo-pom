@@ -343,6 +343,11 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>org.tinyjee.jgraphx</groupId>
+                <artifactId>jgraphx</artifactId>
+                <version>2.0.0.1</version>
+            </dependency>
+            <dependency>
                 <groupId>commons-jexl</groupId>
                 <artifactId>commons-jexl</artifactId>
                 <version>2.0.1</version>
@@ -1081,12 +1086,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.20</version>
+                <version>1.21-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.20</version>
+                <version>1.21-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

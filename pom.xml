@@ -1086,12 +1086,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.21-SNAPSHOT</version>
+                <version>1.21</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.21-SNAPSHOT</version>
+                <version>1.21</version>
                 <classifier>tests</classifier>
             </dependency>
 

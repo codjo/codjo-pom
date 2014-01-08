@@ -929,7 +929,7 @@
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
                 <artifactId>codjo-release-test</artifactId>
-                <version>1.95-SNAPSHOT</version>
+                <version>1.95</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.util</groupId>
@@ -1109,40 +1109,40 @@
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-gui</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-common</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.workflow</groupId>
                 <artifactId>codjo-workflow-server</artifactId>
-                <version>1.83-SNAPSHOT</version>
+                <version>1.83</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1208,45 +1208,45 @@
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-gui</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>datagen-selector</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-batch</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-release-test</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1854,7 +1854,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.74</version>
+                    <version>1.75-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

@@ -1003,45 +1003,45 @@
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-common</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-server</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-client</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-client</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-gui</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.mad</groupId>
                 <artifactId>codjo-mad-gui</artifactId>
-                <version>3.172</version>
+                <version>3.173-SNAPSHOT</version>
                 <classifier>tests</classifier>
             </dependency>
 

@@ -1485,6 +1485,33 @@
                 <artifactId>codjo-referential-server</artifactId>
                 <version>1.66</version>
             </dependency>
+            <dependency>
+                <groupId>net.codjo.data-process</groupId>
+                <artifactId>codjo-data-process-common</artifactId>
+                <version>2.75</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.data-process</groupId>
+                <artifactId>codjo-data-process-gui</artifactId>
+                <version>2.75</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.data-process</groupId>
+                <artifactId>codjo-data-process-server</artifactId>
+                <version>2.75</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.data-process</groupId>
+                <artifactId>codjo-data-process-server</artifactId>
+                <classifier>tests</classifier>
+                <version>2.75</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.data-process</groupId>
+                <artifactId>codjo-data-process-server</artifactId>
+                <classifier>datagen</classifier>				
+                <version>2.75</version>
+            </dependency>
 
             <dependency>
                 <groupId>net.codjo.globs</groupId>

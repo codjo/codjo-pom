@@ -808,17 +808,17 @@
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-common</artifactId>
-                <version>0.20</version>
+                <version>0.21-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-server</artifactId>
-                <version>0.20</version>
+                <version>0.21-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-gui</artifactId>
-                <version>0.20</version>
+                <version>0.21-SNAPSHOT</version>
             </dependency>
 
             <dependency>

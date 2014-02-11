@@ -808,17 +808,17 @@
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-common</artifactId>
-                <version>0.21-SNAPSHOT</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-server</artifactId>
-                <version>0.21-SNAPSHOT</version>
+                <version>0.21</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.administration</groupId>
                 <artifactId>codjo-administration-gui</artifactId>
-                <version>0.21-SNAPSHOT</version>
+                <version>0.21</version>
             </dependency>
 
             <dependency>
@@ -934,7 +934,7 @@
             <dependency>
                 <groupId>net.codjo.util</groupId>
                 <artifactId>codjo-util</artifactId>
-                <version>1.15-SNAPSHOT</version>
+                <version>1.15</version>
             </dependency>
 
             <dependency>
@@ -1086,12 +1086,12 @@
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.22-SNAPSHOT</version>
+                <version>1.22</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.ads</groupId>
                 <artifactId>codjo-ads</artifactId>
-                <version>1.22-SNAPSHOT</version>
+                <version>1.22</version>
                 <classifier>tests</classifier>
             </dependency>
 
@@ -1208,45 +1208,45 @@
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-common</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>tests</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-gui</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>datagen</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-server</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>datagen-selector</classifier>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-batch</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.broadcast</groupId>
                 <artifactId>codjo-broadcast-release-test</artifactId>
-                <version>6.57-SNAPSHOT</version>
+                <version>6.57</version>
                 <classifier>tests</classifier>
             </dependency>
 

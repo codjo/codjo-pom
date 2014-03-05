@@ -924,7 +924,7 @@
             <dependency>
                 <groupId>net.codjo.test</groupId>
                 <artifactId>codjo-test-common</artifactId>
-                <version>3.65</version>
+                <version>3.66-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>net.codjo.release-test</groupId>
@@ -1881,7 +1881,7 @@
                 <plugin>
                     <groupId>net.codjo.maven.mojo</groupId>
                     <artifactId>maven-test-release-plugin</artifactId>
-                    <version>1.75</version>
+                    <version>1.76-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
